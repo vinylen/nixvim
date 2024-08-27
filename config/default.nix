@@ -3,6 +3,8 @@
   imports = [ 
   ./utils/which-key.nix
   ./utils/toggleterm.nix
+  ./lsp/default.nix
+  ./lsp/none-ls.nix
   ./options.nix
   ./ui.nix
   ./treesitter.nix
