@@ -1,6 +1,7 @@
 {
   # Import all your configuration modules here
   imports = [ 
+  ./utils/which-key.nix
   ./options.nix
   ./ui.nix
   ./treesitter.nix
