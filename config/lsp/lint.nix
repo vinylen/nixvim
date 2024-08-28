@@ -1,29 +1,12 @@
 {
-  plugins.lint = { 
+  plugins.lint = {
     enable = true;
     lintersByFt = {
-      dockerfile = [
-        "hadolint"
-      ];
-      json = [
-        "jsonlint"
-      ];
-      markdown = [
-        "vale"
-      ];
-      ruby = [
-        "ruby"
-      ];
-      terraform = [
-        "tflint"
-      ];
-      text = [
-        "vale"
-      ];
-      nix = [
-        "nix"
-      ];
+      nix = ["statix"];
+      lua = ["selene"];
+      python = ["flake8"];
+      json = ["jsonlint"];
+      java = ["checkstyle"];
     };
-  }; 
+  };
 }
-

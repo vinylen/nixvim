@@ -4,6 +4,7 @@
   ./utils/which-key.nix
   ./utils/toggleterm.nix
   ./lsp/default.nix
+  ./lsp/trouble.nix
   ./lsp/none-ls.nix
   ./lsp/lint.nix
   ./options.nix
