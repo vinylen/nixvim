@@ -5,6 +5,7 @@
   ./utils/toggleterm.nix
   ./lsp/default.nix
   ./lsp/none-ls.nix
+  ./lsp/lint.nix
   ./options.nix
   ./ui.nix
   ./treesitter.nix
