@@ -4,9 +4,8 @@
     lintersByFt = {
       nix = ["statix"];
       lua = ["selene"];
-      python = ["flake8"];
+      # python = ["flake8"];
       json = ["jsonlint"];
-      java = ["checkstyle"];
     };
   };
 }
